@@ -1,19 +1,19 @@
-import Category from "../Sidebar/Category/Category"
-
+import Category from "../Sidebar/Category/Category";
+import Price from "../Sidebar/Price/Price";
+import Colors from "../Sidebar/Colors/Clolors";
 const Sidebar = () => {
   return (
     <>
-    <section className="sidebar">
-   <div className="logo-container">
-   <h1>🛒</h1>
-   </div>
- 
-<Category/>
+      <section className="  ">
+          <div className=" mt-[70px]">
+          <Category />
+          <Price />
+          <Colors />
+          </div>
 
-
-    </section>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;

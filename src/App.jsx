@@ -9,7 +9,18 @@ function App() {
       <section className="flex h-screen overflow-hidden  bg-[#fff]">
         {/* side-bar */}
         <div className=" h-full w-[20%] border-r border-[#ccc]">
-        <Sidebar/>
+          <div className=" h-[9.7%] border-b border-[#ccc]">
+          <div className="   flex items-center justify-center ">
+          <h1 className=" text-[45px] cursor-pointer">🛒</h1>
+        </div>
+          </div>
+          <div className=" h-full ">
+            <div className="flex items-center justify-center">
+            <Sidebar/>
+            </div>
+       
+          </div>
+      
         </div>
   {/* side-bar */}
 
